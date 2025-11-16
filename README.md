@@ -101,7 +101,9 @@ reports/
 ```
 
 ## AI reports output:
+```
 ai_report.md
+```
 
 
 
