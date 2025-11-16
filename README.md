@@ -1,23 +1,23 @@
-# 🧩 VersionDiff Sentinel
+# VersionDiff Sentinel
 
 **VersionDiff Sentinel** is an advanced **software update integrity analyzer** that performs full static and differential malware analysis on software update packages (ZIPs).  
 It simulates update checks, performs multi-phase static analysis, and generates AI-assisted forensic reports comparing software versions.
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🔍 **Update Monitoring**
+### **Update Monitoring**
 - Automatically checks for new software versions  
 - Displays real-time update status  
 - Runs deep analysis on update packages  
 
-### 🧭 **Version Comparison (v1 vs v2)**
+### **Version Comparison (v1 vs v2)**
 - Compares update artifacts  
 - Generates full HTML reports for each version  
 - Highlights modified files, added files, deleted files, behavioral changes  
 
-### 🤖 **AI-Driven Forensic Analysis**
+### **AI-Driven Forensic Analysis**
 - Processes `deep_analysis.json` from both versions  
 - Uses AI to summarize:
   - Suspicious changes  
@@ -25,7 +25,7 @@ It simulates update checks, performs multi-phase static analysis, and generates 
   - Security-impacting differences  
   - Overall risk rating  
 
-### 📊 **Dashboard-Style Interface**
+### **Dashboard-Style Interface**
 - Clean modern UI  
 - Responsive layout  
 - Dark theme  
@@ -33,7 +33,7 @@ It simulates update checks, performs multi-phase static analysis, and generates 
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 **Frontend:**  
 - React  
@@ -50,21 +50,21 @@ It simulates update checks, performs multi-phase static analysis, and generates 
 
 
 
-## 🐳 Running with Docker
+## Running with Docker
 
 ```bash
-# 1️⃣ Clone repo
+# Clone repo
 git clone https://github.com/abhinavbibek/versiondiff-sentinel.git
 cd versiondiff-sentinel
 
-# 2️⃣ Copy and configure environment
+# Copy and configure environment
 cp .env.example .env
 nano .env
 
-# 3️⃣ Build and run
+# Build and run
 docker compose up --build
 
-# 4️⃣ Access the web UI
+# Access the web UI
 http://localhost:8000
 
 ```
@@ -108,24 +108,24 @@ ai_report.md
 
 ## Screenshots
 
-### 1️⃣ UI — Update Detection 
+### Update Detection 
 <img src="./screenshots/1.png" width="700"/><br/><br/>
 
-### 2️⃣ UI — Analysis in Progress
+### Analysis in Progress
 <img src="./screenshots/2.png" width="700"/><br/><br/>
 
-### 3️⃣ Static Analysis — Dark Analyst Dashboard 
+### Static Analysis — Dark Analyst Dashboard 
 <img src="./screenshots/3.png" width="700"/><br/><br/>
 
-### 4️⃣ Baseline Summary (Entropy + IOCs)
+### Baseline Summary (Entropy + IOCs)
 <img src="./screenshots/4.png" width="700"/><br/><br/>
 
-### 5️⃣ Deep Analysis — Prioritized Files (Executable Scan)
+### Deep Analysis — Prioritized Files (Executable Scan)
 <img src="./screenshots/5.png" width="700"/><br/><br/>
 
-### 6️⃣ Raw JSON Inventory (deep_analysis.json)
+### Raw JSON Inventory (deep_analysis.json)
 <img src="./screenshots/6.png" width="700"/><br/><br/>
 
-### 7️⃣ AI Forensic Report (Markdown Output)
+### AI Forensic Report (Markdown Output)
 <img src="./screenshots/7.png" width="700"/>
 
