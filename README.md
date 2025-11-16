@@ -67,6 +67,7 @@ docker compose up --build
 # 4️⃣ Access the web UI
 http://localhost:8000
 
+```
 
 | Endpoint                    | Method | Description                       |
 | --------------------------- | ------ | --------------------------------- |
@@ -86,8 +87,7 @@ http://localhost:8000
 - Saves as ai_report.md in report directory
 
 
-
-Each analysis produces:
+## Each analysis produces:
 reports/
 └── v1_update/
     ├── baseline_inventory.json
