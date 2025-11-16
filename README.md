@@ -108,13 +108,13 @@ ai_report.md
 
 ## Screenshots
 
-### 1️⃣ Static Analysis — Dark Analyst Dashboard 
+### 1️⃣ UI — Update Detection 
 <img src="./screenshots/1.png" width="700"/><br/><br/>
 
-### 2️⃣ UI — Update Detection 
+### 2️⃣ UI — Analysis in Progress
 <img src="./screenshots/2.png" width="700"/><br/><br/>
 
-### 3️⃣ UI — Analysis in Progress 
+### 3️⃣ Static Analysis — Dark Analyst Dashboard 
 <img src="./screenshots/3.png" width="700"/><br/><br/>
 
 ### 4️⃣ Baseline Summary (Entropy + IOCs)
