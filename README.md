@@ -88,6 +88,7 @@ http://localhost:8000
 
 
 ## Each analysis produces:
+```bash
 reports/
 └── v1_update/
     ├── baseline_inventory.json
@@ -97,19 +98,34 @@ reports/
     ├── baseline_inventory.json
     ├── deep_analysis.json
     └── full_report.html
+```
 
-## AI reports:
+## AI reports output:
 ai_report.md
+
+
 
 
 ## Screenshots
 
-<img src="./screenshots/1.png" width="700"/><br/>
-<img src="./screenshots/2.png" width="700"/><br/>
-<img src="./screenshots/3.png" width="700"/><br/>
-<img src="./screenshots/4.png" width="700"/><br/>
-<img src="./screenshots/5.png" width="700"/><br/>
-<img src="./screenshots/6.png" width="700"/><br/>
-<img src="./screenshots/7.png" width="700"/>
+### 1️⃣ Static Analysis — Dark Analyst Dashboard 
+<img src="./screenshots/1.png" width="700"/><br/><br/>
 
+### 2️⃣ UI — Update Detection 
+<img src="./screenshots/2.png" width="700"/><br/><br/>
+
+### 3️⃣ UI — Analysis in Progress 
+<img src="./screenshots/3.png" width="700"/><br/><br/>
+
+### 4️⃣ Baseline Summary (Entropy + IOCs)
+<img src="./screenshots/4.png" width="700"/><br/><br/>
+
+### 5️⃣ Deep Analysis — Prioritized Files (Executable Scan)
+<img src="./screenshots/5.png" width="700"/><br/><br/>
+
+### 6️⃣ Raw JSON Inventory (deep_analysis.json)
+<img src="./screenshots/6.png" width="700"/><br/><br/>
+
+### 7️⃣ AI Forensic Report (Markdown Output)
+<img src="./screenshots/7.png" width="700"/>
 
