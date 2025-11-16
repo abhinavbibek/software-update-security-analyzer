@@ -1,0 +1,26 @@
+# Core backend
+fastapi
+uvicorn[standard]
+jinja2
+requests
+python-dotenv
+python-multipart
+
+
+# Static analysis + file inspection
+python-magic
+pefile
+lief
+cryptography
+certvalidator
+oscrypto
+
+# Optional tools & parsing
+websockets
+aiofiles
+
+# Concurrency & safety
+pytest
+
+# For LLM API (Gemini)
+httpx

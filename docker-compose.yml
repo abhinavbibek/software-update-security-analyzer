@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  versiondiff-sentinel:
+    build: .
+    container_name: versiondiff-sentinel
+    restart: always
+    ports:
+      - "8000:8000"
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
+    volumes:
+      - ./reports:/app/reports
+      - ./samples:/app/samples
+    env_file:
+      - .env
+    environment:
+      - PYTHONUNBUFFERED=1

@@ -1,0 +1,34 @@
+Notepad++ v8.8.5 regression-fix:
+
+ 1. Fix "Edit with Notepad++" context menu not being installed correctly regression.
+ 
+
+Notepad++ v8.8.4 vulnerability-fixes, bug-fixes & new enhancement:
+
+ 1. Fix -notabbar & asNotepad.xml stop hiding tabbar regression (from v8.7.9).
+ 2. Fix "Edit with Notepad++" not removed by uninstaller regression (from v8.8.3).
+ 3. Fix possible heap memory leak.
+ 4. Increase search input length from 2046 to 16383.
+ 5. Add warning tip for the max length on search input (Find/Replace).
+ 6. Fix JavaScript listed twice in Language & Indent settings of Preferences issue.
+ 7. Fix external lexers showing several time in Indent settings issue.
+ 8. Add button to insert variables in the run dialog.
+ 9. Enhance "Go to settings": guide users to the related setting explicitly.
+10. Add a clear button for filter field in Shortcut Mapper.
+11. Make NFO font overridable by adding font name in Lexer "nfo" of stylers.xml.
+
+
+Get more info on
+https://notepad-plus-plus.org/downloads/v8.8.5/
+
+
+Included plugins:
+
+1.  NppExport v0.4
+2.  Converter v4.6
+3.  Mime Tool v3.1
+
+
+Updater (Installer only):
+
+* WinGUp (for Notepad++) v5.3.3
