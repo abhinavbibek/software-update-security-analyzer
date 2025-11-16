@@ -7,16 +7,48 @@ It simulates update checks, performs multi-phase static analysis, and generates 
 
 ## 🚀 Features
 
-- 🧠 **Automatic simulation** of update availability using sample ZIPs
-- ⚙️ **Full static analysis**: entropy, IOCs, PE/ELF headers, digital signatures
-- 📊 **Dark-themed HTML dashboard report**
-- 🤖 **AI Forensic Summary** powered by Gemini 1.5 Pro
-- 🔌 **FastAPI + WebSocket** real-time progress updates
-- 🐳 **Fully Dockerized** for consistent deployment
+### 🔍 **Update Monitoring**
+- Automatically checks for new software versions  
+- Displays real-time update status  
+- Runs deep analysis on update packages  
+
+### 🧭 **Version Comparison (v1 vs v2)**
+- Compares update artifacts  
+- Generates full HTML reports for each version  
+- Highlights modified files, added files, deleted files, behavioral changes  
+
+### 🤖 **AI-Driven Forensic Analysis**
+- Processes `deep_analysis.json` from both versions  
+- Uses AI to summarize:
+  - Suspicious changes  
+  - Behavioral red flags  
+  - Security-impacting differences  
+  - Overall risk rating  
+
+### 📊 **Dashboard-Style Interface**
+- Clean modern UI  
+- Responsive layout  
+- Dark theme  
+- Tailwind + custom CSS  
 
 ---
 
----
+## 🏗️ Tech Stack
+
+**Frontend:**  
+- React  
+- Vite  
+- TailwindCSS  
+- Framer Motion  
+- React Markdown  
+
+**Backend:**  
+- Python  
+- Flask / FastAPI (depending on your implementation)  
+- File-based reporting system  
+
+
+
 
 ## 🐳 Running with Docker
 
@@ -46,17 +78,12 @@ http://localhost:8000
 | `/api/reports/{report_dir}` | GET    | View HTML or JSON report          |
 | `/ws/progress/{run_id}`     | WS     | Real-time progress updates        |
 
-AI Analysis Workflow
-
-After both ZIPs analyzed → user clicks Perform AI Analysis
-
-Server merges baseline_inventory.json + deep_analysis.json
-
-Sends structured diff to Gemini via API
-
-Receives Markdown forensic summary
-
-Saves as ai_report.md in report directory
+## AI Analysis Workflow
+- After both ZIPs analyzed → user clicks Perform AI Analysis
+- Server merges baseline_inventory.json + deep_analysis.json
+- Sends structured diff to Gemini via API
+- Receives Markdown forensic summary
+- Saves as ai_report.md in report directory
 
 
 
@@ -71,7 +98,18 @@ reports/
     ├── deep_analysis.json
     └── full_report.html
 
-AI reports:
+## AI reports:
 ai_report.md
+
+
+## Screenshots
+
+<img src="./screenshots/1.png" width="700"/><br/>
+<img src="./screenshots/2.png" width="700"/><br/>
+<img src="./screenshots/3.png" width="700"/><br/>
+<img src="./screenshots/4.png" width="700"/><br/>
+<img src="./screenshots/5.png" width="700"/><br/>
+<img src="./screenshots/6.png" width="700"/><br/>
+<img src="./screenshots/7.png" width="700"/>
 
 

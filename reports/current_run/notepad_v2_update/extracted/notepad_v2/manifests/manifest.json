@@ -1,6 +1,0 @@
-{
-  "name": "notepad",
-  "version": "9.9.9-ATTACKER_TEST",
-  "files": ["notepad.exe","readme.txt"],
-  "signature": "SIMULATED_SIGNATURE_PLACEHOLDER"
-}
